@@ -1,0 +1,146 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+textarea {
+	resize: none;
+}
+body {
+	background: url("dark_embroidery.gif");
+	-moz-background-size: auto;
+	-o-background-size: auto;
+	background-size: auto;
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	width: 70%;
+	background-color: #a9a9a9;
+	position: center;
+	margin: 0 auto;
+	padding-top: 80px;
+	height: calc(100vh + 40px);
+}
+
+#nav2 {
+	background-color: green;
+	overflow: hidden;
+	width: 150px;
+	margin: 10px;
+	text-align: center;
+	height: calc(100vh - 100px);
+	float: left;
+	position: fixed;
+}
+#nav2 ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	
+}
+#divul {
+	padding: 10px;
+	background-color: #FF7E00;
+	margin: 10px;
+	height: calc(100vh - 140px);
+}
+#divul > ul > li > a {
+
+	color: white;
+	display: block;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+#divul > ul > li > a:hover,button:hover{
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+
+#profile {
+	max-width: 90px;
+	max-height: 90px;
+}
+
+#comment {
+	position: relative;
+}
+
+#display {
+	background-color: lightgray;
+	padding: 15px ;
+	margin: 10px 30px 0px 200px;
+	height: calc(100vh);
+}
+#comm {
+	width:400px;
+	height:100px;
+	float: left
+}
+
+button{
+	background-color: green;
+	padding: 2px;
+	border:none;
+	margin:7px;
+	color:white;
+	float:left;
+	width:100px;
+	height:20px;
+}
+
+select{
+	width: 55px;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    border-bottom-color: gray;
+    border-bottom-width: 1px;
+}
+
+#buttons{
+	 display: table;	
+}
+#b3{
+	font-family: 'Roboto', sans-serif;
+	margin-left: 10px;
+}
+#b1,#b2{
+	display: table-row;
+}
+textarea{
+	font-family:'Roboto', sans-serif;
+}
+#b3>p{
+	display:inline;
+	font-size:10px;
+	font-family:'Roboto', sans-serif;
+}
+
+input[type=file]{
+	 visibility: hidden;
+	 width:0px;
+}
+#imgShow{
+	float:left;
+	visibility: hidden;
+}
+
+#posts>div{
+	background-color:white;
+	padding:5px;
+	margin:10px;
+	border:1px solid black;
+
+}
+
+#posts>div>a{
+	color:orange;
+	text-decoration: none;
+	float: top;
+}

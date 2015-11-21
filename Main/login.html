@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<title>pāpori</title>
+		<link rel="shortcut icon" href="icon.png" />
+		<link rel="stylesheet" href="css/style1.css" />
+	</head>
+
+	<body>
+
+		<div class="login-card">
+			<!--<img id="icon1" src="icon.png" alt="icon" height="60" width="60"> -->
+			<h1>Papori</h1>
+			<br>
+			<form id="formLogin">
+				<input type="text" name="user" id="user" placeholder="Username">
+				<input type="password" id="pass" name="pass" placeholder="Password">
+				<input type="submit" name="login" class="login login-submit" value="login" onsubmit="return login()" >
+			</form>
+
+			<div class="login-help">
+				<a href="register.html">Register</a> • <a href="password_recovery.html">Forgot Password</a>•<a href="about.html">About</a>
+			</div>
+		</div>
+
+		<script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+		<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+		<script src='js/login.js'></script>
+	</body>
+</html>
