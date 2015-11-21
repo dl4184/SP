@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<title>Home</title>
+		<meta name="description" content="">
+		<meta name="author" content="Domen">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<link rel="shortcut icon" href="icon.png" />
+		<link rel="stylesheet" href="css/about.css" />
+		<link rel="stylesheet" href="css/nav.css" />
+		<link rel="stylesheet" href="css/home.css" />
+		
+		<script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+		<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+		<script src='js/home.js'></script>
+	</head>
+
+	<body>
+		<div id="body">
+			<div id="nav">
+				<nav>
+					<ul>
+						<li>
+							<a href="home.html">Pāpori</a>
+						</li>
+
+					</ul>
+				</nav>
+			</div>
+			<div id="main">
+
+				<div id="nav2">
+					<div id="divul">
+						<img id="profile" alt="" src="images/profile.png" />
+						<ul>
+							<li>
+								<a href="login.html">My Profile</a>
+							</li>
+							<li>
+								<a href="login.html">Friends</a>
+							</li>
+							<li>
+								<a href="login.html">Settings</a>
+							</li>
+							<li>
+								<a href="login.html">Log out</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<div id="display">
+					<input type="file" id="inputImage" name="myImage" accept="image/x-png, image/gif, image/jpeg" onchange="loadFile(event)" />
+					Your thoughts:
+					<div id="comment">
+						<textarea  id="comm" name="comm" rows="1" > 
+						  </textarea>
+					</div>
+					<img id="imgShow" src="icon.png" alt="" height="0" width="0">
+					<div id="buttons">
+						<div id="b1">
+							<button id="addP" onclick="imgSubmit()" >
+								Add Picture
+							</button>
+						</div>
+						<div id="b3">
+							<p>
+								Show to:
+							</p>
+							<select>
+								<option value="All">All</option>
+								<option value="Friends">Friends</option>
+							</select>
+						</div>
+						<div id="b2">
+							<button id="post">
+								Post
+							</button>
+						</div>
+					</div>
+					<br/>
+					<hr style="color:lightgray">
+					<div id="posts">
+						<div id="p1">
+							<a href="user.html/micka">Micka</a>
+							<p>Najboljši dan :D</p>
+						</div>
+						<div id="p2">
+							<a href="user.html/Neza">Neza</a>				
+							<p>Dobro jutro aaaaaaasdasd</p>
+							<img id="ip1" src="icon.png" alt="" height="300" width="300">
+							
+						</div>
+						<div id="p3">
+							<a href="user.html/micka">Rok</a>
+							<p>Najboljši dan :D</p>
+						</div>
+						<div id="p4">
+							<a href="user.html/micka">Micka</a>
+							<p>Najboljši dan :D</p>
+						</div>
+						<div id="p5">
+							<a href="user.html/micka">Micka</a>
+							<p>Najboljši dan :D</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</body>
+</html>
