@@ -19,15 +19,36 @@ $(document).ready(function() {
 		var check6 = colorRed("#pass1");
 		var check7 = colorRed("#pass2");
 		var check = check1 && check2 && check3 && check4 && check5 && check6 && check7;
+		if ($("#email1").val() != $("#email2").val()) {
+			$("#email1").css({
+				"background-color" : "#fcdede",
+				"color" : "red"
+			});
+			$("#email2").css({
+				"background-color" : "#fcdede",
+				"color" : "red"
+			});
+			check = false;
+		}
+		if ($("#pass1").val() != $("#pass2").val()) {
+			$("#pass1").css({
+				"background-color" : "#fcdede",
+				"color" : "red"
+			});
+			$("#pass2").css({
+				"background-color" : "#fcdede",
+				"color" : "red"
+			});
+			check = false;
+		}
 		return check;
 	});
-	
-	$("#name,#surname,#user,#email1,#email2,#pass1,#pass2").focusin(function(){
+
+	$("#name,#surname,#user,#email1,#email2,#pass1,#pass2").focusin(function() {
 		$(this).css({
 			"background-color" : "white",
 			"color" : "black"
 		});
-		
 	});
 
 });

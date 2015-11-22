@@ -39,6 +39,14 @@ $(document).ready(function() {
 				"color" : "#black"
 			});
 		}
+		console.log(check);
+		if(check){
+			var url=window.location.href;
+			var last=url.lastIndexOf('/');
+			var sub=url.substring(0,last);
+			window.location.href = sub+'/home.html';
+			return false;
+		}
 		return check;
 
 	});
