@@ -23,7 +23,6 @@ body {
 	margin: 0 auto;
 	padding-top: 80px;
 	height: calc(100vh*0.9165);
-	
 }
 
 #nav2 {
@@ -41,7 +40,6 @@ body {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	
 }
 #divul {
 	padding: 10px;
@@ -59,7 +57,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-#divul > ul > li > a:hover,button:hover{
+#divul > ul > li > a:hover, button:hover {
 	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
 
@@ -76,79 +74,78 @@ body {
 	width: 600px;
 }
 
-#displayp{
+#displayp {
 	background-color: lightgray;
 	padding: 15px 15px 15px 10px;
 	margin: 10px 30px 0px 200px;
 	border-radius: 3px;
 	width: 600px;
 }
-h2{
-	color: green;	
+h2 {
+	color: green;
 }
-#header{
+#header {
 	margin-left: 50px;
 }
-#settings{
-	display:table;
-	margin:0 auto;
-		
+#settings {
+	display: table;
+	margin: 0 auto;
 }
 
-#inputs{
+#inputs {
 	float: left;
 	padding-top: 9px;
 }
-#text,#text1,#text2{
-	float:left
+#text, #text1, #text2 {
+	float: left
 }
-#text2{
+#text2 {
 	padding-left: 10px;
 }
 
-#text>p,#text2>p,#text1>p{
+#text > p, #text2 > p, #text1 > p {
 	line-height: 12px;
 }
 
-input{
-	margin:3px;
+input {
+	margin: 3px;
 }
-input[type=text]:invalid,input[type=password]:invalid,input[type=email]:invalid{
-	background-color : #fcdede;	
+input[type=text]:invalid, input[type=password]:invalid, input[type=email]:invalid {
+	background-color: #fcdede;
 }
 textarea {
 	resize: none;
 }
-#description{
-	margin-top:30px;
-
+#description {
+	margin-top: 30px;
 }
 
-#newprofile,#kappa{
-	float:left;
-	height:200px;
+#newprofile, #kappa {
+	float: left;
+	height: 200px;
 	width: 200px;
 	padding-left: 20px;
 }
-#newprofile:hover{
+#newprofile:hover {
 	cursor: pointer
 }
-input[type=file]{
+input[type=file] {
 	visibility: hidden;
 }
 
-button{
+button {
 	background-color: green;
 	padding: 2px;
-	border:none;
-	margin-left:200px;
-	color:white;
-	width:100px;
-	height:20px;
-	
+	border: none;
+	margin-left: 200px;
+	color: white;
+	width: 100px;
+	height: 20px;
 }
-select{
-	margin-top:5px;
-	margin-left:3px;
+select {
+	margin-top: 5px;
+	margin-left: 3px;
 }
+
+
 

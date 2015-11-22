@@ -101,3 +101,42 @@ h2{
 	margin-left: 7px;
 }
 
+#imagelist{
+	display:table;	
+}
+.image{
+	background-color:#FF7E00;
+	padding:10px;
+	border:1px solid white;
+	float: none;
+	border-radius: 5px;
+	margin: 7px;
+	display: inline-table;
+}
+.image>a>img{
+	width:200px;
+	height:200px;
+}
+#lightbox {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(overlay.png) repeat;
+	text-align: center;
+	z-index: 6;
+	
+}
+#lightbox p {
+	text-align: right;
+	color: #fff;
+	margin-right: 20px;
+	font-size: 12px;
+}
+#lightbox img {
+	box-shadow: 0 0 25px #111;
+	-webkit-box-shadow: 0 0 25px #111;
+	-moz-box-shadow: 0 0 25px #111;
+	max-width: 940px;
+}
